@@ -16,7 +16,7 @@ interactive experience that can be used for various purposes, such as virtual as
 
 ## Github Model Reference
 
-![Make It Talk](https://github.com/yzhou359/MakeItTalk)
+[Make It Talk](https://github.com/yzhou359/MakeItTalk)
 
 ## Architecture
    
