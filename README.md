@@ -1,10 +1,10 @@
 # CCN_Project_Group_7
 
 ## Group Members
-- Diven Ashwani Ahuja
-- Saumit Chinchkhandi
-- Sayyam Anil Gada
-- Tushar Nemade
+- Diven Ashwani Ahuja dahuja1@uncc.edu
+- Saumit Chinchkhandi schinchk@uncc.edu
+- Sayyam Anil Gada sgada@uncc.edu
+- Tushar Nemade tnemade@uncc.edu
 
 ## Introduction
     
