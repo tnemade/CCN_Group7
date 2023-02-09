@@ -8,7 +8,13 @@
 - Tushar Nemade tnemade@uncc.edu
 
 ## Introduction
-    Generating talking images with audio is a fascinating application of machine learning and WebRTC technologies. The combination of these cutting-edge tools has made it possible to create animated characters that can not only display facial expressions but also speak with realistic voices. The process involves training a machine learning model on vast amounts of data, which can then be used to generate realistic facial movements and speech in real-time. WebRTC technology, on the other hand, enables real-time communication between devices and enables seamless integration of the talking images into web applications. The result is a highly engaging and interactive experience that can be used for various purposes, such as virtual assistants, customer service chatbots, or even as a fun way to express yourself online.
+    Generating talking images with audio is a fascinating application of machine learning and WebRTC technologies. The combination of these cutting-edge tools has
+    made it possible to create animated characters that can not only display facial expressions but also speak with realistic voices. The process involves training a 
+    machine learning model on vast amounts of data, which can then be used to generate realistic facial movements and speech in real-time. WebRTC technology, on the 
+    other hand, enables real-time communication between devices and enables seamless integration of the talking images into web applications. The result is a highly 
+    engaging and interactive experience that can be used for various purposes, such as virtual assistants, customer service chatbots, or even as a fun way to express 
+    yourself online.
+
 ## Architecture
    
    ### Client-Server Architecture
