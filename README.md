@@ -14,6 +14,10 @@ pre-trained model on vast amounts of data, which can then be used to generate re
 enables real-time communication between devices and enables seamless integration of the talking images into web applications. The result is a highly engaging and
 interactive experience that can be used for various purposes, such as virtual assistants, customer service chatbots, or even as a fun way to express yourself online.
 
+## Github Model Reference
+
+[Make It Talk](https://github.com/yzhou359/MakeItTalk)
+
 ## Architecture
    
    ### Client-Server Architecture
@@ -34,5 +38,5 @@ interactive experience that can be used for various purposes, such as virtual as
 | Week 6 | Integration of Ml Model and WebRTC |
 | Week 7 | Testing and Bug fixing for the developed application |
 | Week 8 | Learning How to deploy the developed model on Network |
-| Week 9 | Delpoyment of Developed model |
+| Week 9 | Deployment of Developed model |
 | Week 10 | Testing of deployed Model |
