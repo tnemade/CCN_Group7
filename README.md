@@ -1,4 +1,5 @@
-# CCN_Project_Group_7
+# SpeakUp: An AI-Powered Speech-to-Video Model for Conversational Animation
+
 
 ## Group Members
 - Diven Ashwani Ahuja dahuja1@uncc.edu
