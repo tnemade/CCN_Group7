@@ -1,4 +1,4 @@
-# CCN_Human_3D_Modeling
+# CCN_Project_Group_7
 
 ## Group Members
 - Diven Ashwani Ahuja
