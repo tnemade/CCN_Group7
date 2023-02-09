@@ -34,5 +34,5 @@ interactive experience that can be used for various purposes, such as virtual as
 | Week 6 | Integration of Ml Model and WebRTC |
 | Week 7 | Testing and Bug fixing for the developed application |
 | Week 8 | Learning How to deploy the developed model on Network |
-| Week 9 | Delpoyment of Developed model |
+| Week 9 | Deployment of Developed model |
 | Week 10 | Testing of deployed Model |
