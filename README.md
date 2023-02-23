@@ -1,4 +1,4 @@
-# Facial Animation: A Real-Time 3D Face Tracking and Reconstruction.
+# Facial Animation: A Real-Time 3D Face Mapping
 
 
 ## Group Members
