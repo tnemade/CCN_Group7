@@ -1,4 +1,4 @@
-# SpeakUp: An AI-Powered Speech-to-Video Model for Conversational Animation
+# SpeakUp: Real-Time 3D Face Mapping
 
 
 ## Group Members
@@ -8,15 +8,13 @@
 - Tushar Nemade tnemade@uncc.edu
 
 ## Introduction
-Generating talking images with audio is a fascinating application of machine learning and WebRTC technologies. The combination of these cutting-edge tools has made it
-possible to create animated characters that can not only display facial expressions but also speak with realistic voices. The process involves using a machine learning
-pre-trained model on vast amounts of data, which can then be used to generate realistic facial movements and speech in real-time. WebRTC technology, on the other hand,
-enables real-time communication between devices and enables seamless integration of the talking images into web applications. The result is a highly engaging and
-interactive experience that can be used for various purposes, such as virtual assistants, customer service chatbots, or even as a fun way to express yourself online.
+Using MediaPipe Face Mesh, 468 3D face landmarks may be calculated in real-time. With only a single camera input, it employs machine learning (ML) to infer the 3D facial surface. The strategy provides the real-time throughput critical for live experiences by utilizing lightweight model architectures and GPU acceleration throughout the pipeline.
+It uses transfer learning to train a model that concurrently predicts 2D semantic contours on annotated real-world data and 3D landmark coordinates on synthetic rendered data for 3D facial landmarks. It generates 3D landmark predictions from the resulting model using both synthetic and real-world data.
+A clipped video frame without any additional depth input is passed to the 3D landmark network as input. The 3D point coordinates and detects the likelihood that a face is recognized and adequately aligned in the input are both output by the model. Predicting a 2D heatmap for each landmark is a frequent alternative strategy, but it is not suitable for depth prediction and has high computational demands for such a large number of points. By iteratively bootstrapping and adjusting predictions, the accuracy and stability of the model are boosted. By doing so, we may expand our dataset to include progressively difficult scenarios like grimaces, oblique angles, and occlusions.
 
 ## Github Model Reference
 
-[Make It Talk](https://github.com/yzhou359/MakeItTalk)
+[MediaPipe FaceMesh](https://google.github.io/mediapipe/solutions/face_mesh)
 
 ## Architecture
    
@@ -30,13 +28,7 @@ interactive experience that can be used for various purposes, such as virtual as
 
 | Week | Plan |
 |----------|----------|
-| Week 1 | Setup & Installation |
-| Week 2 | Understanding of ML model |
-| Week 3| Learning how to implement WebRTC |
-| Week 4| Working on WebRTC design and model |
-| Week 5 | Implementation of WebRTC |
-| Week 6 | Integration of Ml Model and WebRTC |
-| Week 7 | Testing and Bug fixing for the developed application |
-| Week 8 | Learning How to deploy the developed model on Network |
-| Week 9 | Deployment of Developed model |
-| Week 10 | Testing of deployed Model |
+| Week 1-2 | Download and train the MediaPipe Face Mesh model using the pre-processed datasets |
+| Week 3-4 | Design of Client-Server Architecture and Implementation of WebRTC design |
+| Week 5-6 | Integration of WebRTC and ML model with Client-Server Architecture |
+| Week 7-8 | Testing and Optimization for the developed application and Project Report and PPT implementation |
