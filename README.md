@@ -41,7 +41,7 @@ Real-time communication between web browsers and mobile applications is made pos
 
 | Week | Plan |
 |----------|----------|
-| Week 1-2 | Download and train the MediaPipe Face Mesh model using the pre-processed datasets |
+| Week 1-2 | Setting up Project Environment and Downloading and training the MediaPipe Face Mesh model using the pre-processed datasets |
 | Week 3-4 | Design of Client-Server Architecture and Implementation of WebRTC design |
 | Week 5-6 | Integration of WebRTC and ML model with Client-Server Architecture |
-| Week 7-8 | Testing and Optimization for the developed application and Project Report and PPT implementation |
+| Week 7-8 | Conducting rigorous Testing and Optimization phases for achieving maximum throughput for the developed application and implementing Project Report and PowerPoint Presentation for documenting project findings and conclusion |
