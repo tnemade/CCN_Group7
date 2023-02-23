@@ -1,4 +1,4 @@
-# SpeakUp: Real-Time 3D Face Mapping
+# Real-Time 3D Face Mapping
 
 
 ## Group Members
@@ -11,6 +11,9 @@
 Using MediaPipe Face Mesh, 468 3D face landmarks may be calculated in real-time. With only a single camera input, it employs machine learning (ML) to infer the 3D facial surface. The strategy provides the real-time throughput critical for live experiences by utilizing lightweight model architectures and GPU acceleration throughout the pipeline.
 It uses transfer learning to train a model that concurrently predicts 2D semantic contours on annotated real-world data and 3D landmark coordinates on synthetic rendered data for 3D facial landmarks. It generates 3D landmark predictions from the resulting model using both synthetic and real-world data.
 A clipped video frame without any additional depth input is passed to the 3D landmark network as input. The 3D point coordinates and detects the likelihood that a face is recognized and adequately aligned in the input are both output by the model. Predicting a 2D heatmap for each landmark is a frequent alternative strategy, but it is not suitable for depth prediction and has high computational demands for such a large number of points. By iteratively bootstrapping and adjusting predictions, the accuracy and stability of the model are boosted. By doing so, we may expand our dataset to include progressively difficult scenarios like grimaces, oblique angles, and occlusions.
+
+## WebRTC
+Real-time communication between web browsers and mobile applications is made possible via the open-source WebRTC (Web Real-Time Communication) technology, which was created by Google. It enables the direct integration of audio and video communication into web pages without the need for any additional plugins or applications. To offer a smooth real-time communication experience, WebRTC employs common web technologies including HTML, CSS, and JavaScript. In order to facilitate applications like video conferencing, live streaming, and online gaming, it supports peer-to-peer connection between browsers or mobile devices. Several operating systems, including Windows, MacOS, Linux, Android, and iOS, as well as popular web browsers including Chrome, Firefox, Safari, and Edge support WebRTC.
 
 ## Github Model Reference
 
