@@ -22,6 +22,8 @@ It uses transfer learning to train a model that concurrently predicts 2D seman
 
 A clipped video frame without any additional depth input is passed to the 3D landmark network as input. The 3D point coordinates and detects the likelihood that a face is recognized and adequately aligned in the input are both output by the model. Predicting a 2D heatmap for each landmark is a frequent alternative strategy, but it is not suitable for depth prediction and has high computational demands for such a large number of points. By iteratively bootstrapping and adjusting predictions, the accuracy and stability of the model are boosted.
 
+![image](https://user-images.githubusercontent.com/115678929/220990722-33152c18-4527-47be-8bb9-e4537a33f47c.png)
+
 ## WebRTC
 Real-time communication between web browsers and mobile applications is made possible via the open-source WebRTC (Web Real-Time Communication) technology, which was created by Google. It enables the direct integration of audio and video communication into web pages without the need for any additional plugins or applications. To offer a smooth real-time communication experience, WebRTC employs common web technologies including HTML, CSS, and JavaScript. In order to facilitate applications like video conferencing, live streaming, and online gaming, it supports peer-to-peer connection between browsers or mobile devices. Several operating systems, including Windows, MacOS, Linux, Android, and iOS, as well as popular web browsers including Chrome, Firefox, Safari, and Edge support WebRTC.
 
@@ -41,7 +43,7 @@ Real-time communication between web browsers and mobile applications is made pos
 
 | Week | Plan |
 |----------|----------|
-| Week 1-2 | Download and train the MediaPipe Face Mesh model using the pre-processed datasets |
-| Week 3-4 | Design of Client-Server Architecture and Implementation of WebRTC design |
+| Week 1-2 | Setting up Project Environment and Downloading and Training the MediaPipe Face Mesh model using the pre-processed datasets |
+| Week 3-4 | Design of Client-Server Architecture and implementation of WebRTC protocol to process media between devices |
 | Week 5-6 | Integration of WebRTC and ML model with Client-Server Architecture |
-| Week 7-8 | Testing and Optimization for the developed application and Project Report and PPT implementation |
+| Week 7-8 | Conducting rigorous Testing and Optimization phases for achieving maximum throughput for the developed application and implementing Project Report and PowerPoint Presentation for documenting project findings and conclusion |
