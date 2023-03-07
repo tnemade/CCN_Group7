@@ -50,7 +50,7 @@ For working on future project iterations, our team is currently learning Streaml
 ## Project Setup
 
 Below mentioned are steps required to run the python file:-
-1. Create and initialize virtual environment [Instructions](https://docs.python.org/3/library/venv.html)
+1. Create and initialize virtual environment [Link](https://docs.python.org/3/library/venv.html)
 2. Upgrade pip. ```python -m pip install --upgrade pip```
 3. Upgrade pip dependencies. ```pip install --upgrade pip setuptools wheel```
 4. Install all the dependencies for the project. ```pip install -r requirements.txt```
