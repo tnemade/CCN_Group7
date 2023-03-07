@@ -45,7 +45,7 @@ In Project Progress 1, we have completed Week 1-2 iterations as mentioned in our
 
 While working on the code, our team understood various parameters associated which contribute to the outcome of the model during runtime like max_num_faces which denotes the maximum number of faces to detect, min_detection_confidence and min_tracking_confidence which helps configure face detection success rates. The model as of now runs as a windows application only.
 
-For working on future project iterations, our team is currently learning Streamlit to create the frontend for our Face Mesh Application and create a live server where our application could run live on multiple devices seamlessly. Additionally, our team is working on providing the User run time options like changing number of faces to be detected and a slider to set ratio of face detection and tracking confidence.
+For working on future project iterations, our team is currently learning Streamlit to create the frontend for our Face Mesh Application. Additionally, our team is working on providing the User run time options like changing number of faces to be detected and a slider to set ratio of face detection and tracking confidence.
 
 ## Project Setup
 
