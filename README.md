@@ -38,6 +38,27 @@ Real-time communication between web browsers and mobile applications is made pos
    The Client-Server model with WebRTC and ML model describes a system where clients use WebRTC technology to establish a real-time, peer-to-peer communication channel with a server. The server hosts a machine learning model that is used to process and analyze data received from the clients. The clients can send data to the server in real-time, and receive results from the ML model, allowing for dynamic and interactive communication between the two components. This setup enables users to receive immediate results from the ML model without the need for a long and slow data transfer process, making it a highly efficient and effective solution for a wide range of applications.
 
    ![Client Server Model](https://github.com/tushar251095/CCN_Human_3D_Modeling/blob/main/Architecture.jpg?raw=true)
+   
+   
+## Project Progress 1
+In Project Progress 1, we have completed Week 1-2 iterations as mentioned in our Project Plan. We have understood the funtionality of our chosen MediaPipe ML model where we have researched to gain deep insights about the working of this model and downloaded the required code. Additionally, we have fine tuned and cleaned the code to remove unnecessary functionalities and redesigned it based on our project requirements. We later created a virtual environment for installing any dependencies and executing our development.
+
+While working on the code, our team understood various parameters associated which contribute to the outcome of the model during runtime like max_num_faces which denotes the maximum number of faces to detect, min_detection_confidence and min_tracking_confidence which helps configure face detection success rates. The model as of now runs as a windows application only.
+
+For working on future project iterations, our team is currently learning Streamlit to create the frontend for our Face Mesh Application and create a live server where our application could run live on multiple devices seamlessly. Additionally, our team is working on providing the User run time options like changing number of faces to be detected and a slider to set ratio of face detection and tracking confidence.
+
+## Project Setup
+
+Below mentioned are steps required to run the python file:-
+1. Create and initialize virtual environment [Instructions](https://docs.python.org/3/library/venv.html)
+2. Upgrade pip. ```python -m pip install --upgrade pip```
+3. Upgrade pip dependencies. ```pip install --upgrade pip setuptools wheel```
+4. Install all the dependencies for the project. ```pip install -r requirements.txt```
+5. Execute the python file. ```python face_mesh.py```
+
+Key Points to Note:
+1. Mediapipe requires python version 3.9 or lower to run so in case there is a higher version installed, switch to the lower python versions in an environment.
+2. To forcefully terminate the application, press ```ctrl+C```.
 
 ## Project plan
 
