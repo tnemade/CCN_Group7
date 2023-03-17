@@ -1,7 +1,8 @@
-import cv2
+import streamlit as st
 import mediapipe as mp
+import cv2
+
 mp_drawing = mp.solutions.drawing_utils
-mp_drawing_styles = mp.solutions.drawing_styles
 mp_face_mesh = mp.solutions.face_mesh
 
 # For webcam input:
