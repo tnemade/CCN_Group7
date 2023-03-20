@@ -68,8 +68,11 @@ In the Frontend application developed, we have given user options to specify the
 For future iterations, our team is wokring towards understanding how WebRTC can be used to add real-time communication capabilities to our Face Mapping project.
 
 ## Steps To Execute Progress 2 development:-
------Add steps here----
-
+1. Create and initialize virtual environment [Link](https://docs.python.org/3/library/venv.html)
+2. Upgrade pip. ```python -m pip install --upgrade pip```
+3. Upgrade pip dependencies. ```pip install --upgrade pip setuptools wheel```
+4. Install all the dependencies for the project if not installed. ```pip install -r requirements.txt```
+5. Execute the python file. ```streamlit run face_mesh.py```
 
 
 
