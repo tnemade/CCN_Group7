@@ -61,7 +61,7 @@ Key Points to Note:
 2. To forcefully terminate the application, press ```ctrl+C```.
 
 ## Project Progress 2
-In Project Progress 2, our team has successfully completed developing and integrating Streamlit into our project. In previous iteration, we had built a basic windows application for our ML mdoel, but now with Streamlit, we have seamlessly designed a responsive Frontend for our Face Mesh detection using MediaPipe. Additionally, Streamlit has been extensively used to develop our backend server for helping us implement a single server multiple client framework for our project.
+In Project Progress 2, our team has successfully completed developing and integrating Streamlit into our project. In previous iteration, we ran pre-trained machine learning model in windows application, but now with Streamlit, we have seamlessly designed a responsive Frontend for our Face Mesh detection using MediaPipe. Additionally, Streamlit has been extensively used to develop our backend server for helping us implement a single server multiple clients framework for our project.
 
 In the Frontend application developed, we have given user options to specify the number of faces to be detected while using Webcam. Min_Tracking_Confidence and Min_Detection_confidence bars which range from 0 to 100 which are seekbars which can be adjusted to modify face detection and identification rates. These Key Performance Indicators(KPI's) are essential in tweaking results based on different parameters. During execution, the server is started which can be accessed based on a shareable link which is sent to multiple devices. On opening the link, Webcam/Camera access needs to be granted and the application soons starts detecting faces visible through the device camera.
 
