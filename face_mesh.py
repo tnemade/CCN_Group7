@@ -1,9 +1,13 @@
 import streamlit as st
 import mediapipe as mp
-import cv2
 
 mp_drawing = mp.solutions.drawing_utils
 mp_face_mesh = mp.solutions.face_mesh
+
+from streamlit_webrtc import webrtc_streamer
+import av
+
+
 
 st.title("Face Mesh")
 max_faces = st.number_input("Maximum Number of Faces", value = 2, min_value=1)
@@ -13,21 +17,24 @@ tracking_confidence = st.slider("Min Tracking Confidence", min_value=0.0, max_va
 st.markdown("---")
 
 
-stframe = st.empty()
 
-vid = cv2.VideoCapture(0)
-drawing_spec = mp_drawing.DrawingSpec(thickness=1, circle_radius=1)
+def video_frame_callback(frame):
+    frame = frame.to_ndarray(format="bgr24")
 
-with mp_face_mesh.FaceMesh(
-    max_num_faces = max_faces,
-    min_detection_confidence = detection_confidence,
-    min_tracking_confidence = tracking_confidence
-) as face_mesh:
+    st.markdown("## Output")
+   
+    drawing_spec = mp_drawing.DrawingSpec(thickness=1, circle_radius=1)
+    
+    kpi1_text = st.markdown("0")
 
-    while vid.isOpened():
-        ret, frame = vid.read()
-        if not ret:
-            continue
+    st.markdown("<hr/>", unsafe_allow_html=True)
+
+
+    with mp_face_mesh.FaceMesh(
+        max_num_faces = max_faces,
+        min_detection_confidence = detection_confidence,
+        min_tracking_confidence = tracking_confidence
+    ) as face_mesh:
 
         results = face_mesh.process(frame)
         frame.flags.writeable = True
@@ -46,6 +53,8 @@ with mp_face_mesh.FaceMesh(
             )
 
 
+        kpi1_text.write(f'<h1 style="text-align: center; color:red;">{face_count}</h1>', unsafe_allow_html=True)
         
-        frame = cv2.resize(frame, (0,0), fx = 0.8, fy = 0.8)
-        stframe.image (frame, channels = "BGR", use_column_width = True)
+    return av.VideoFrame.from_ndarray(frame, format="bgr24")
+
+webrtc_streamer(key="example", video_frame_callback=video_frame_callback, rtc_configuration={"iceServers": [{"urls": ["stun:stun.l.google.com:19302"]}]})
