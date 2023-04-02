@@ -74,6 +74,15 @@ For future iterations, our team is wokring towards understanding how WebRTC can 
 4. Install all the dependencies for the project if not installed. ```pip install -r requirements.txt```
 5. Execute the python file. ```streamlit run face_mesh.py```
 
+## Project Progress 3
+In the iteration 2, we had completed integrating streamlit into our face detection project. In the current iteration, we have converted streamlit into streamlit webrtc for implementing webrtc into streamlit. The main project goal was to implement real-time communication while running the project, which is crucial because it allows users to quickly verify what their models can do with handy video input from their own devices, such as webcams or smartphones. This key functionality was achieved with streamlit webrtc. Webrtc uses WebRTC ice server which is a Session Traversal Utilities for NAT(STUN) server which is used for relaying data.
+
+## Steps To Execute Progress 2 development:-
+1. Create and initialize virtual environment [Link](https://docs.python.org/3/library/venv.html)
+2. Upgrade pip. ```python -m pip install --upgrade pip```
+3. Upgrade pip dependencies. ```pip install --upgrade pip setuptools wheel```
+4. Install all the dependencies for the project if not installed. ```pip install -r requirements.txt```
+5. Execute the python file. ```streamlit run face_mesh.py```
 
 
 ## Project plan
