@@ -47,7 +47,7 @@ While working on the code, our team understood various parameters associated whi
 
 For working on future project iterations, our team is currently learning Streamlit to create the frontend for our Face Mesh Application. Additionally, our team is working on providing the User run time options like changing number of faces to be detected and a slider to set ratio of face detection and tracking confidence.
 
-## Project Setup
+## Project Progress 1 Setup
 
 Below mentioned are steps required to run the python file:-
 1. Create and initialize virtual environment [Link](https://docs.python.org/3/library/venv.html)
@@ -59,6 +59,22 @@ Below mentioned are steps required to run the python file:-
 Key Points to Note:
 1. Mediapipe requires python version 3.9 or lower to run so in case there is a higher version installed, switch to the lower python versions in an environment.
 2. To forcefully terminate the application, press ```ctrl+C```.
+
+## Project Progress 2
+In Project Progress 2, our team has successfully completed developing and integrating Streamlit into our project. In previous iteration, we ran pre-trained machine learning model in windows application, but now with Streamlit, we have seamlessly designed a responsive Frontend for our Face Mesh detection using MediaPipe. Additionally, Streamlit has been extensively used to develop our backend server for helping us implement a single server multiple clients framework for our project.
+
+In the Frontend application developed, we have given user options to specify the number of faces to be detected while using Webcam. Min_Tracking_Confidence and Min_Detection_confidence bars which range from 0 to 100 which are seekbars which can be adjusted to modify face detection and identification rates. These Key Performance Indicators(KPI's) are essential in tweaking results based on different parameters. During execution, the server is started which can be accessed based on a shareable link which is sent to multiple devices. On opening the link, Webcam/Camera access needs to be granted and the application soons starts detecting faces visible through the device camera.
+
+For future iterations, our team is wokring towards understanding how WebRTC can be used to add real-time communication capabilities to our Face Mapping project.
+
+## Steps To Execute Progress 2 development:-
+1. Create and initialize virtual environment [Link](https://docs.python.org/3/library/venv.html)
+2. Upgrade pip. ```python -m pip install --upgrade pip```
+3. Upgrade pip dependencies. ```pip install --upgrade pip setuptools wheel```
+4. Install all the dependencies for the project if not installed. ```pip install -r requirements.txt```
+5. Execute the python file. ```streamlit run face_mesh.py```
+
+
 
 ## Project plan
 
