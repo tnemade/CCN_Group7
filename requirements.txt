@@ -58,7 +58,6 @@ pyparsing==3.0.9
 pyproject_hooks==1.0.0
 pyrsistent==0.19.3
 python-dateutil==2.8.2
-python3-opencv
 pytz==2022.7.1
 pytz-deprecation-shim==0.1.0.post0
 requests==2.28.2
