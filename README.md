@@ -85,6 +85,14 @@ In the iteration 2, we had completed integrating streamlit into our face detecti
 5. Execute the python file. ```streamlit run face_mesh.py```
 
 
+## Steps To Execute Progress 4 development:-
+1. Create and initialize virtual environment [Link](https://docs.python.org/3/library/venv.html)
+2. Upgrade pip. ```python -m pip install --upgrade pip```
+3. Upgrade pip dependencies. ```pip install --upgrade pip setuptools wheel```
+4. Install all the dependencies for the project if not installed. ```pip install streamlit mediapipe streamlit_webrtc```
+5. Execute the python file. ```streamlit run face_mesh.py```
+
+
 ## Project plan
 
 | Week | Plan |
