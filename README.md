@@ -52,7 +52,7 @@ While working on the code, our team understood various parameters associated whi
 For working on future project iterations, our team is currently learning Streamlit to create the frontend for our Face Mesh Application. Additionally, our team is working on providing the User run time options like changing number of faces to be detected and a slider to set ratio of face detection and tracking confidence.
 </p>
 ## Project Progress 1 Setup
-<p align="justify">
+
 Below mentioned are steps required to run the python file:-
 1. Create and initialize virtual environment [Link](https://docs.python.org/3/library/venv.html)
 2. Upgrade pip. ```python -m pip install --upgrade pip```
@@ -63,7 +63,7 @@ Below mentioned are steps required to run the python file:-
 Key Points to Note:
 1. Mediapipe requires python version 3.9 or lower to run so in case there is a higher version installed, switch to the lower python versions in an environment.
 2. To forcefully terminate the application, press ```ctrl+C```.
-</p>
+
 ## Project Progress 2
 <p align="justify">
 In Project Progress 2, our team has successfully completed developing and integrating Streamlit into our project. In previous iteration, we ran pre-trained machine learning model in windows application, but now with Streamlit, we have seamlessly designed a responsive Frontend for our Face Mesh detection using MediaPipe. Additionally, Streamlit has been extensively used to develop our backend server for helping us implement a single server multiple clients framework for our project.
@@ -73,37 +73,37 @@ In the Frontend application developed, we have given user options to specify the
 For future iterations, our team is wokring towards understanding how WebRTC can be used to add real-time communication capabilities to our Face Mapping project.
 </p>
 ## Steps To Execute Progress 2 development:-
-<p align="justify">
+
 1. Create and initialize virtual environment [Link](https://docs.python.org/3/library/venv.html)
 2. Upgrade pip. ```python -m pip install --upgrade pip```
 3. Upgrade pip dependencies. ```pip install --upgrade pip setuptools wheel```
 4. Install all the dependencies for the project if not installed. ```pip install streamlit mediapipe```
 5. Execute the python file. ```streamlit run face_mesh.py```
-</p>
+
 ## Project Progress 3
 <p align="justify">
 In the iteration 2, we had completed integrating streamlit into our face detection project. In the current iteration, we have converted streamlit into streamlit webrtc for implementing webrtc into streamlit. The main project goal was to implement real-time communication while running the project, which is crucial because it allows users to quickly verify what their models can do with handy video input from their own devices, such as webcams or smartphones. This key functionality was achieved with streamlit webrtc. Webrtc uses WebRTC ice server which is a Session Traversal Utilities for NAT(STUN) server which is used for relaying data.
 </p>
 ## Steps To Execute Progress 3 development:-
-<p align="justify">
+
 1. Create and initialize virtual environment [Link](https://docs.python.org/3/library/venv.html)
 2. Upgrade pip. ```python -m pip install --upgrade pip```
 3. Upgrade pip dependencies. ```pip install --upgrade pip setuptools wheel```
 4. Install all the dependencies for the project if not installed. ```pip install streamlit mediapipe streamlit_webrtc```
 5. Execute the python file. ```streamlit run face_mesh.py```
-</p>
+
 ## Project Progress 4
 <p align="justify">
 In Progress 3, our team was able to successfully implement streamlit WebRTC for integrating real-time communication functionality into our FaceMesh project. In this iteration, we started deploying our project on streamlit Cloud which is a platform for deploying streamlit apps. However, while doing this we experienced many version and dependencies issues which were fixed by adjusting our project to the required versions. One of the dependencies involved OpenCV libGL which was resolved by creating a new file called packages.txt and adding libgl1-mesa-glx. After resolving all dependencies, we were able to successfully deploy our project on streamlit Cloud but while running our project, the camera was not starting. On researching about this issue, we got to know this is an existing issue with streamLit WebRTC which has not yet been resolved [Link](https://github.com/whitphx/streamlit-webrtc/issues/1213). So, we decided to host the project on our system and shared a link to other devices(mobile phones and laptops) which could access the link and try our FaceMesh project. Thus, the client-server aspect of our project was completed.
 </p>
 ## Steps To Execute Progress 4 development:-
-<p align="justify">
+
 1. Create and initialize virtual environment [Link](https://docs.python.org/3/library/venv.html)
 2. Upgrade pip. ```python -m pip install --upgrade pip```
 3. Upgrade pip dependencies. ```pip install --upgrade pip setuptools wheel```
 4. To install all the dependencies. ```pip install streamlit mediapipe streamlit_webrtc```
 5. Execute the python file. ```streamlit run face_mesh.py```
-</p>
+
 
 ## Project plan
 
