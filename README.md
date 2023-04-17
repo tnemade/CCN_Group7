@@ -53,7 +53,7 @@ Below mentioned are steps required to run the python file:-
 1. Create and initialize virtual environment [Link](https://docs.python.org/3/library/venv.html)
 2. Upgrade pip. ```python -m pip install --upgrade pip```
 3. Upgrade pip dependencies. ```pip install --upgrade pip setuptools wheel```
-4. Install all the dependencies for the project. ```pip install streamlit mediapipe streamlit_webrtc```
+4. Install all the dependencies for the project. ```pip install mediapipe```
 5. Execute the python file. ```python face_mesh.py```
 
 Key Points to Note:
@@ -71,7 +71,7 @@ For future iterations, our team is wokring towards understanding how WebRTC can 
 1. Create and initialize virtual environment [Link](https://docs.python.org/3/library/venv.html)
 2. Upgrade pip. ```python -m pip install --upgrade pip```
 3. Upgrade pip dependencies. ```pip install --upgrade pip setuptools wheel```
-4. Install all the dependencies for the project if not installed. ```pip install -r requirements.txt```
+4. Install all the dependencies for the project if not installed. ```pip install streamlit mediapipe```
 5. Execute the python file. ```streamlit run face_mesh.py```
 
 ## Project Progress 3
@@ -81,7 +81,7 @@ In the iteration 2, we had completed integrating streamlit into our face detecti
 1. Create and initialize virtual environment [Link](https://docs.python.org/3/library/venv.html)
 2. Upgrade pip. ```python -m pip install --upgrade pip```
 3. Upgrade pip dependencies. ```pip install --upgrade pip setuptools wheel```
-4. Install all the dependencies for the project if not installed. ```pip install -r requirements.txt```
+4. Install all the dependencies for the project if not installed. ```pip install streamlit mediapipe streamlit_webrtc```
 5. Execute the python file. ```streamlit run face_mesh.py```
 
 
