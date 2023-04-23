@@ -57,7 +57,7 @@ Below mentioned are steps required to run the python file:-
 1. Create and initialize virtual environment [Link](https://docs.python.org/3/library/venv.html)
 2. Upgrade pip. ```python -m pip install --upgrade pip```
 3. Upgrade pip dependencies. ```pip install --upgrade pip setuptools wheel```
-4. Install all the dependencies for the project. ```pip install mediapipe cv2```
+4. Install all the dependencies for the project. ```pip install mediapipe opencv-python```
 5. Execute the python file. ```python face_mesh.py```
 
 Key Points to Note:
