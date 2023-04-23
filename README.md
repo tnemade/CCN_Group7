@@ -24,7 +24,6 @@ It uses transfer learning to train a model that concurrently predicts 2D seman
 
 A clipped video frame without any additional depth input is passed to the 3D landmark network as input. The 3D point coordinates and detects the likelihood that a face is recognized and adequately aligned in the input are both output by the model. Predicting a 2D heatmap for each landmark is a frequent alternative strategy, but it is not suitable for depth prediction and has high computational demands for such a large number of points. By iteratively bootstrapping and adjusting predictions, the accuracy and stability of the model are boosted.
 
-![image](https://user-images.githubusercontent.com/115678929/220990722-33152c18-4527-47be-8bb9-e4537a33f47c.png)
 
 ## WebRTC
 
@@ -54,11 +53,10 @@ For working on future project iterations, our team is currently learning Streaml
 ## Project Progress 1 Setup
 
 Below mentioned are steps required to run the python file:-
-1. Create and initialize virtual environment [Link](https://docs.python.org/3/library/venv.html)
-2. Upgrade pip. ```python -m pip install --upgrade pip```
-3. Upgrade pip dependencies. ```pip install --upgrade pip setuptools wheel```
-4. Install all the dependencies for the project. ```pip install mediapipe opencv-python```
-5. Execute the python file. ```python face_mesh.py```
+1. Upgrade pip. ```python -m pip install --upgrade pip```
+2. Upgrade pip dependencies. ```pip install --upgrade pip setuptools wheel```
+3. Install all the dependencies for the project. ```pip install mediapipe opencv-python```
+4. Execute the python file. ```python face_mesh.py```
 
 Key Points to Note:
 1. Mediapipe requires python version 3.9 or lower to run so in case there is a higher version installed, switch to the lower python versions in an environment.
@@ -74,11 +72,10 @@ For future iterations, our team is working towards understanding how WebRTC can 
 
 ## Steps To Execute Progress 2 development:-
 
-1. Create and initialize virtual environment [Link](https://docs.python.org/3/library/venv.html)
-2. Upgrade pip. ```python -m pip install --upgrade pip```
-3. Upgrade pip dependencies. ```pip install --upgrade pip setuptools wheel```
-4. Install all the dependencies for the project if not installed. ```pip install streamlit mediapipe```
-5. Execute the python file. ```streamlit run face_mesh.py```
+1. Upgrade pip. ```python -m pip install --upgrade pip```
+2. Upgrade pip dependencies. ```pip install --upgrade pip setuptools wheel```
+3. Install all the dependencies for the project if not installed. ```pip install streamlit mediapipe```
+4. Execute the python file. ```streamlit run face_mesh.py```
 
 ## Project Progress 3
 
@@ -86,11 +83,10 @@ In the iteration 2, we had completed integrating streamlit into our face detecti
 
 ## Steps To Execute Progress 3 development:-
 
-1. Create and initialize virtual environment [Link](https://docs.python.org/3/library/venv.html)
-2. Upgrade pip. ```python -m pip install --upgrade pip```
-3. Upgrade pip dependencies. ```pip install --upgrade pip setuptools wheel```
-4. Install all the dependencies for the project if not installed. ```pip install streamlit mediapipe streamlit_webrtc```
-5. Execute the python file. ```streamlit run face_mesh.py```
+1. Upgrade pip. ```python -m pip install --upgrade pip```
+2. Upgrade pip dependencies. ```pip install --upgrade pip setuptools wheel```
+3. Install all the dependencies for the project if not installed. ```pip install streamlit mediapipe streamlit_webrtc```
+4. Execute the python file. ```streamlit run face_mesh.py```
 
 ## Project Progress 4
 
@@ -98,11 +94,10 @@ In Progress 3, our team was able to successfully implement streamlit WebRTC for 
 
 ## Steps To Execute Progress 4 development:-
 
-1. Create and initialize virtual environment [Link](https://docs.python.org/3/library/venv.html)
-2. Upgrade pip. ```python -m pip install --upgrade pip```
-3. Upgrade pip dependencies. ```pip install --upgrade pip setuptools wheel```
-4. To install all the dependencies. ```pip install streamlit mediapipe streamlit_webrtc opencv-python matplotlib itertools numpy```
-5. Execute the python file. ```streamlit run face_mesh.py```
+1. Upgrade pip. ```python -m pip install --upgrade pip```
+2. Upgrade pip dependencies. ```pip install --upgrade pip setuptools wheel```
+3. To install all the dependencies. ```pip install streamlit mediapipe streamlit_webrtc opencv-python matplotlib itertools numpy```
+4. Execute the python file. ```streamlit run face_mesh.py```
 
 
 ## Project plan
