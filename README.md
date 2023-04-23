@@ -101,7 +101,7 @@ In Progress 3, our team was able to successfully implement streamlit WebRTC for 
 1. Create and initialize virtual environment [Link](https://docs.python.org/3/library/venv.html)
 2. Upgrade pip. ```python -m pip install --upgrade pip```
 3. Upgrade pip dependencies. ```pip install --upgrade pip setuptools wheel```
-4. To install all the dependencies. ```pip install streamlit mediapipe streamlit_webrtc```
+4. To install all the dependencies. ```pip install streamlit mediapipe streamlit_webrtc cv2 matplotlib itertools numpy```
 5. Execute the python file. ```streamlit run face_mesh.py```
 
 
