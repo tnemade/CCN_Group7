@@ -112,4 +112,4 @@ In Progress 3, our team was able to successfully implement streamlit WebRTC for 
 | Week 1-2 | Setting up Project Environment and Downloading and understanding mediapipe face mesh and its usage for the project |
 | Week 3-4 | Design of Client-Server Architecture and implementation of WebRTC protocol to process media between devices |
 | Week 5-6 | Integration of WebRTC and ML model with Client-Server Architecture |
-| Week 7-8 | Deployment of the application and implementing Project Report and PowerPoint Presentation for documenting project findings and conclusion |
+| Week 7-8 | Added funny filter to our current Face Mesh model. Deployment of the application and implementing Project Report and PowerPoint Presentation for documenting project findings and conclusion |
