@@ -34,10 +34,10 @@ face_mesh_images = mp_face_mesh.FaceMesh(static_image_mode=True, max_num_faces=m
 face_mesh_videos = mp_face_mesh.FaceMesh(static_image_mode=False, max_num_faces=max_faces, 
                                          min_detection_confidence=detection_confidence,min_tracking_confidence=tracking_confidence)
 
-left_eye = cv2.imread('D:/Downloads/Files - Facial Landmark Detection with Mediapipe & Creating Animated Snapchat filters-20230419T212040Z-001/Files - Facial Landmark Detection with Mediapipe _ Creating Animated Snapchat filters/media/left_eye.png')
-right_eye = cv2.imread('D:/Downloads/Files - Facial Landmark Detection with Mediapipe & Creating Animated Snapchat filters-20230419T212040Z-001/Files - Facial Landmark Detection with Mediapipe _ Creating Animated Snapchat filters/media/right_eye.png')
+left_eye = cv2.imread('left_eye.png')
+right_eye = cv2.imread('right_eye.png')
 
-smoke_animation = cv2.VideoCapture('D:/Downloads/Files - Facial Landmark Detection with Mediapipe & Creating Animated Snapchat filters-20230419T212040Z-001/Files - Facial Landmark Detection with Mediapipe _ Creating Animated Snapchat filters/media/smoke_animation.mp4')
+smoke_animation = cv2.VideoCapture('smoke_animation.mp4')
 mp_drawing_styles = mp.solutions.drawing_styles
 
 
